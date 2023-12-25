@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+font-size: larger;
+}
+.image-container {
+    position: relative;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.button {
+    position: absolute;
+    bottom: 10px; /* Adjust the position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer function scrollToTop
+    window.scrollToTop{ top: 0, behavior 'smooth' }; 
+  
+
